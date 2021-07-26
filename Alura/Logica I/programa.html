@@ -1,0 +1,41 @@
+<meta charset="UTF-8">
+
+<script>
+    var pulaLinha2 = "<br><br>";
+    var pulaLinha1 = "<br>";
+
+    document.write("<h1>Exemplos</h1>");
+
+    document.write("Eu nasci em: <br> 2002 ");
+
+    document.write(pulaLinha2)
+    document.write("Soma de 8 + 7 = " + (8+7));
+
+    document.write(pulaLinha2)
+    document.write("Flávio nasceu em" + (2016 - 39) + pulaLinha1);
+    document.write("Joaquim nasceu em" + (2016 - 20) + pulaLinha1);
+    document.write("Barney nasceu em" + (2016 - 40) + pulaLinha1);
+
+    //Arredondar valor
+    var idadeFlavio = 39;
+    var idadeJoaquim = 20;
+    var idadeBarney = 41;
+    var media = (idadeFlavio + idadeJoaquim + idadeBarney)/3;
+
+    document.write(pulaLinha2)
+    document.write('A média das idades é ' + Math.round(media)); 
+    //
+
+    var nome = "Flávio";
+
+    document.write(pulaLinha2)
+    document.write("A idade de  " + nome + " é " + idadeFlavio);
+
+    var ano = 2021;
+
+    document.write(pulaLinha2)
+    document.write("Flávio tem " + (ano - 1977) + " anos" + pulaLinha1);
+    document.write("Joaquim tem " + (ano - 1996) + " anos" + pulaLinha1);
+    document.write("Barney tem " + (ano - 1976) + " anos" + pulaLinha1);
+    
+</script>

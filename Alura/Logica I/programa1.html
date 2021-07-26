@@ -1,0 +1,34 @@
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha() {
+
+        document.write("<br>")
+
+    }
+    function mostra(parametro) {
+
+        document.write(parametro)
+        pulaLinha();
+
+    }
+
+    var ano = 2021;
+
+    mostra("Caio tem " + (ano - 1977) + " anos");
+
+    mostra("Joaquim tem " + (ano - 1994) + " anos");
+
+    mostra("Barney tem " + (ano - 1997) + " anos");
+
+    // Diferença anos
+
+    mostra("A diferença de idade entre Pedro e Diego é de " + (32-18) + " anos");
+
+    // Desde 1500 até o ano atual, quantas gerações se passaram?
+
+    mostra("Em média, um casal tem filhos quando atinge a idade de 28 anos. Seguindo essa média, se os portugueses chegaram em 1500 no Brasil, então, a primeira geração de brasileiros surgiu em 1528, a segunda em 1556 e assim por diante. Desde 1500 até o ano atual, quantas gerações se passaram?");
+
+    mostra((1500-2021)/28);
+
+</script>
